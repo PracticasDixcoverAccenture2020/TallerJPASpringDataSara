@@ -12,5 +12,6 @@ public interface UsuarioService {
 	public Usuario nuevoUsuario(Usuario usuario);
 	public Usuario actualizarUsuario(Usuario usuario);
 	public List<Usuario> findByNombre(String nombre);
+	public void deleteById(Integer id);
 
 }
