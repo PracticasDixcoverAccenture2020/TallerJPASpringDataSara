@@ -40,7 +40,7 @@ public class PrestamoRepositoryTest {
 
 
 	@Test
-	@DataSet(value = "prestamos.yml, usuarios.yml, libros.yml", cleanBefore = true, cleanAfter = true)
+	@DataSet(value = "prestamos.yml, usuarios.yml, libros.yml, categorias.yml, editoriales.yml", cleanBefore = true, cleanAfter = true)
 	@DisplayName("Test unitario buscar por id los prestamos")
 	public void testFindById() {
 

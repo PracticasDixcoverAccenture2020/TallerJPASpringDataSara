@@ -137,5 +137,5 @@ Prestamo:
   - id: 27
     fecha_inicio: "[DAY,NOW]"
     fecha_devolucion: 
-    libro_id: 28
+    libro_id: 27
     usuario_id: 10
