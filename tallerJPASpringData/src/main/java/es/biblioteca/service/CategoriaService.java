@@ -18,7 +18,4 @@ public interface CategoriaService {
 
     public Categoria nuevaCategoria(Categoria categoria);
     
-    public List<Prestamo> findByUsuario(Usuario usuario);
-    
-    public List<Usuario> findByNombre(String nombre);
 }

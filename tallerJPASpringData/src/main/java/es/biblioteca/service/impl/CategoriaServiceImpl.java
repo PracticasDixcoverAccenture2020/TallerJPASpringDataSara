@@ -9,6 +9,8 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import es.biblioteca.entity.Categoria;
+import es.biblioteca.entity.Prestamo;
+import es.biblioteca.entity.Usuario;
 import es.biblioteca.repository.CategoriaRepository;
 import es.biblioteca.service.CategoriaService;
 import lombok.extern.slf4j.Slf4j;
@@ -50,4 +52,6 @@ public class CategoriaServiceImpl implements CategoriaService {
 		categoriaRepository.deleteById(id);
 
 	}
+
+
 }
